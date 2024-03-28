@@ -1,0 +1,367 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* ESTILIZAÇÃO DO HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 150px;
+    color: #f2f2f2;
+    background-color: rgba(1, 1, 1, 0.752);
+    align-items: center;
+}
+#logo_header{
+    text-align: center;
+    font-size: 10pt;
+}
+#logo_header img{
+    height: 56px;
+}
+body{
+    background-color: rgba(208, 207, 207, 0.667);
+}
+#lista {
+    display: flex;
+    font-size: 14pt;
+    gap: 80px;
+    list-style: none;
+    padding-right: 80px;
+    
+
+}
+
+.navega{
+    text-decoration: none;
+    color: white;
+}
+
+/* ESTILIZAÇÃO INICIAL DA PAGINA */
+
+#inicio{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.293), #000 85%), url("./img/main_image.jpg");
+    background-size: cover;
+    color: #f2f2f2;
+    height: 500px;
+    padding: 90px;
+   
+}
+
+#inicio h1{
+    
+    font-size: 23pt;
+}
+
+#inicio p{
+    
+    font-size: 12pt;
+}
+
+#imagem_principal{
+    width: 100%;
+}
+
+#texto{
+    padding-left: 40px;
+    padding-top: 30px;
+    font-size: 16pt;
+    width: 50%;
+    
+}
+
+.botao_curso{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.botao_curso:hover{
+    background-color: #2366c4;
+    box-shadow: 0px 15px 20px rgba(39, 46, 181, 0.4);
+    color: #f2f2f2;
+    a{
+        color: #f2f2f2;
+    }
+    transform: translateY(-3px);
+    
+    
+}
+
+.botao_curso:active {
+    transform: translateY(-1px);
+}
+
+.botao_curso a{
+    text-decoration: none;
+    color: #000;
+}
+
+#botao{
+    margin-top: 30px;
+}
+
+
+/* ESTILIZAÇÃO DA SESSÃO DE SOBRE */
+
+#sobre{
+    
+    width: 100%;
+   
+    color: #000000;
+}
+
+#nos{
+    width: 80%;
+    padding: 140px 150px;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+#caixa_nos{
+    width: 60%;
+}
+
+#nos h2{
+    font-size: 22pt;
+}
+
+
+#nos img{
+    width: 30%;
+    border-radius: 40%;
+    box-shadow: 2px 3px 10px #000000a5 ;
+    
+}
+
+
+
+/* ESTILIZACÃO DA SESSÃO DE CURSOS */
+
+
+#cursos{
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(46, 123, 161, 0.353), rgb(216, 216, 216) 80%);
+    padding-top: 50px;
+
+    
+}
+
+#caixa_curso {
+    display: flex; 
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 30px;
+    
+}
+
+
+#titulo_curso{
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+
+#tabela tr td{
+    padding: 0px 30px 50px 30px;
+}
+
+.card {
+    max-width: 300px;
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: #d8dcdd;
+    border: 3px #2366c4 outset;
+    box-shadow: 0px 4px 15px rgba(33, 44, 127, 0.4); ;
+    transition: all 0.3s ease 0s;
+
+}
+
+.card:hover{
+    transform: translateY(-15px);
+}
+
+.imagem_card{
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+.imagem_card img{
+    background-size: cover;
+    width: 60%;
+}
+
+.conteudo{
+    padding: 20px 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.desc{
+    padding: 10px;
+    font-size: 10pt;
+}
+
+#python{
+    border-bottom: 3px solid #ffcf406e;
+    border-right: 3px solid #ffcf406e;
+    border-left: 3px solid #3771A1;
+    border-top: 3px solid #3771A1;;
+}
+
+
+#js{
+    border: 3px #F5DE19 outset;
+    .botao_curso{
+        margin-top: 15px;
+    }
+    .botao_curso:hover{
+        background-color: #F5DE19;
+        color: #f2f2f2;
+        box-shadow: 0px 15px 20px rgba(181, 179, 39, 0.4);
+
+    }
+
+}
+#java{
+    border: 3px #ff9f19 outset;
+    .imagem_card img{
+       height: 180px;
+       width: 150px;
+    }
+    .botao_curso:hover{
+        background-color: #ff9f19;
+        color: #f2f2f2;
+        box-shadow: 0px 15px 20px rgba(181, 179, 39, 0.4);
+
+    }
+}
+
+#c{
+    border: 3px #731178 outset;
+    .imagem_card img{
+        height: 170px;
+        width: 170px;
+     }
+    .botao_curso:hover{
+        background-color: #731178;
+        color: #f2f2f2;
+        box-shadow: 0px 15px 20px rgba(115, 22, 103, 0.4);
+
+    }
+}
+
+#php{
+    border: 3px #6181B6 outset;
+    .imagem_card img{
+        padding-top: 24px;
+        padding-bottom: 24px;
+        height: 120px;
+        width: 200px;
+     }
+    .botao_curso:hover{
+        background-color: #6181B6;
+        color: #f2f2f2;
+        box-shadow: 0px 15px 20px rgba(50, 48, 106, 0.4);
+
+    }
+}
+
+#ruby{
+    border: 3px #AB1401 outset;
+    .imagem_card img{
+        
+        height: 153px;
+        width: 153px;
+     }
+    .botao_curso:hover{
+        background-color: #9D1401;
+        color: #f2f2f2;
+        box-shadow: 0px 15px 20px rgba(106, 48, 48, 0.4);
+
+    }
+}
+
+
+footer {
+    background-color: #3c4040;
+    display: flex;
+    color: #f2f2f2;
+    align-items: center;
+    text-align: center;
+   
+    justify-content: space-around;
+    gap: 80px;
+    padding: 30px;
+  }
+
+#logo_footer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#esq{
+    width: 30%;
+}
+
+#link{
+
+    padding-top: 15px;
+}
+#links li {
+    list-style: url("./img/chevron-right-solid.svg");
+    text-align: left;
+    padding-top: 10px;
+    
+    
+}
+
+#links li a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+#contact a img{
+    display: flex;
+    height: 30px;
+}
+
+#contact strong{
+    margin: 10px;
+}
+    
+#contact a {
+    display: flex;
+    margin: 5px;
+}
+
+#redes{
+    display: flex ;
+}
+
+#credit{
+    text-align: center;
+    padding: 15px;
+    background-color: #142b4da9;
+    color: #fff;
+}
