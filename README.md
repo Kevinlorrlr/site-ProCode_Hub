@@ -1,1 +1,1 @@
-Site para um projeto de venda de cursos
+Site para um projeto de venda de cursos. Projeto em desenvolvimento!
