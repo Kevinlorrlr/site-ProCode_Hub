@@ -130,6 +130,70 @@
         
             </div>
         </section>
+
+        <section id="contato">
+            <form action="" id="formulario">
+                <div><h3 style="color: rgb(12, 12, 194);">Entre em contato conosco</h3></div>
+                <div id="caixa_form">
+                    <div class="caixa_info">
+                        <Label for="nome">Nome completo *</Label>
+                        <input type="text" placeholder="Ex: Matheus Oliveira da Silva" id="nome" required class="caixa_texto">
+                    </div>
+
+
+                    <div class="caixa_info">
+                        <Label for="email">Email *</Label>
+                        <input type="email" id="email" name="email" placeholder="Ex: example@email.com" required class="caixa_texto">
+                    </div>
+
+                    <div class="caixa_info">
+                        <Label>Gênero * </Label>
+                       
+                        <div class="genero">
+                            <input type="radio" id="masculino" name="genero" value="M" required>
+                            <Label for="masculino">Masculino</Label>
+                        </div>
+                        <div class="genero">
+                            <input type="radio" id="feminino" name="genero" value="F" required>
+                            <Label for="feminino"feminino>Feminino</Label>
+                        </div>
+                    </div>
+                    <div class="caixa_info">
+
+                        <label for="tel">Telefone *</label>
+                        <input type="tel" required placeholder="+55 (71)94002-8922" class="caixa_texto">
+                    </div>
+                    <div class="caixa_info">
+                        <label for="situacao">Informe seu problema/duvida *</label>
+
+                        <select name="situacao" id="situacao" required class="caixa_texto">
+
+                        <option value="" selected disabled>Selecione uma das opções</option>
+
+                        <option value="problema">Relatar problema</option>
+
+                        <option value="duvida_curso">Dúvidas sobre nossos cursos</option>
+
+                        <option value="problema_sub">Problema na inscrição</option>
+
+                        <option value="duvida_sobre">Dúvidas sobre a empresa</option>
+
+                        <option value="Outro">Caso seja outro informe abaixo</option>
+                        </select>
+                    </div>
+                    <div class="caixa_info">
+
+                        <label for="sobre">Relate detalhatamente sobre seu problema/dúvida</label>
+                        <textarea name="sobre" id="sobre" cols="20" rows="5" placeholder="Digite aqui!" style="padding-right: 0px;padding-left: 10px; border: 2px #3771A1 solid; border-radius: 20px;"></textarea>
+                    </div>
+
+                    <button  type="submit" id="botao_form">ENVIAR</button>
+                </div>
+
+            </form>
+
+        </section>
+
     </main>
     <footer>
         <div id="esq">
@@ -163,5 +227,6 @@
           </div>
         </footer>
         <div id="credit"><p>&copy;Desenvolvido por Kevin Lorran</p></div>
+        <script src="scripts.js"></script>
 </body>
 </html>

@@ -7,21 +7,19 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding: 18px 150px;
+    padding: 15px 150px;
     color: #f2f2f2;
     background-color: rgba(1, 1, 1, 0.752);
     align-items: center;
 }
 #logo_header{
     text-align: center;
-    font-size: 10pt;
+    font-size: 9pt;
 }
 #logo_header img{
-    height: 56px;
+    height: 45px;
 }
-body{
-    background-color: rgba(208, 207, 207, 0.667);
-}
+
 #lista {
     display: flex;
     font-size: 14pt;
@@ -29,15 +27,38 @@ body{
     list-style: none;
     padding-right: 80px;
     
-
+    
 }
+
+#lista li a{
+    color: #b1b1b1;
+}
+
+#lista li:hover{
+    transition: 2s;
+    transform: translateY(-3px);
+    a{
+        color: #f2f2f2;
+    }
+}
+
+
+
 
 .navega{
     text-decoration: none;
     color: white;
 }
 
+.navega:hover{
+    transform: translateY(-3px);
+}
+
 /* ESTILIZAÇÃO INICIAL DA PAGINA */
+
+body{
+background-color: rgba(208, 207, 207, 0.667);
+}
 
 #inicio{
     display: flex;
@@ -62,6 +83,7 @@ body{
 
 #imagem_principal{
     width: 100%;
+
 }
 
 #texto{
@@ -299,6 +321,88 @@ body{
     }
 }
 
+/* ESTILIZAÇÃO DA SESSÃO CONTATO */
+
+#contato{
+    padding: 90px ;
+    height: 800px;
+    background-image: url("./img/contato_efeitada.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: right; 
+    
+   
+}
+
+#formulario{
+    background-color: #f2f2f2;
+    width: 45%;
+    padding: 40px 30px 780px 30px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    border-radius: 40px;
+    
+
+}
+
+#caixa_form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.caixa_info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.caixa_info label{
+    padding-left: 10px;
+    color: #2366c4;
+}
+
+.caixa_info input, .caixa_info select{
+    border-color: #3771A1;
+    border-style: 2px solid;
+}
+
+
+.caixa_texto{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.genero{
+    padding-left: 12px;
+}
+
+#caixa_form button{
+    width: 100%;
+    padding: 1.3em 3em;
+    border: #3771A1 solid 2px;
+    border-radius: 10px;
+}
+
+#botao_form{
+    margin-top: 5px;
+}
+
+#botao_form:hover {
+    transition: 2s;
+    background-color: #e3e3e3;
+}
+
+
+
+
+
+/* ESTILIZAÇÃO DO FOOTER */
 
 footer {
     background-color: #3c4040;
