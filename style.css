@@ -346,6 +346,8 @@ background-color: rgba(208, 207, 207, 0.667);
 
 }
 
+
+
 #caixa_form{
     width: 90%;
     display: flex;
@@ -375,6 +377,8 @@ background-color: rgba(208, 207, 207, 0.667);
 .caixa_texto{
     padding: 10px;
     border-radius: 20px;
+    border: 2px solid #3771A1;
+    background-color: #dfdfdf;
 }
 
 .genero{
@@ -388,13 +392,17 @@ background-color: rgba(208, 207, 207, 0.667);
     border-radius: 10px;
 }
 
+#area-texto{
+    background-color: #dfdfdf;
+}
+
 #botao_form{
     margin-top: 5px;
+    cursor: pointer;
 }
 
 #botao_form:hover {
-    transition: 2s;
-    background-color: #e3e3e3;
+    background-color: #dbdbdb;
 }
 
 
