@@ -15,10 +15,10 @@
 
         <nav id="navegacao">
             <ul id="lista">
-                <li><a href="#inicio" class="navega">Inicio</a></li>
-                <li><a href="#sobre" class="navega">Sobre</a></li>
-                <li><a href="#cursos" class="navega">Cursos</a></li>
-                <li><a href="#" class="navega">Contato</a></li>
+                <li><a href="#inicio" class="navega" tabindex="1">Inicio</a></li>
+                <li><a href="#sobre" class="navega" tabindex="1">Sobre</a></li>
+                <li><a href="#cursos" class="navega" tabindex="2">Cursos</a></li>
+                <li><a href="#contato" class="navega" tabindex="3">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -28,7 +28,7 @@
             <div id="texto">
                 <h1>Explorando Horizontes Digitais: Cursos de Programação para Todos os Níveis</h1>
                 <p style="margin-top: 15px;"><strong>Bem-vindo ao nosso portal de cursos de programação</strong>, onde os bits e bytes se transformam em oportunidades ilimitadas de aprendizado e crescimento profissional. Aqui, no nosso site, você encontrará uma ampla variedade de cursos cuidadosamente elaborados para ajudá-lo a <em>dominar as linguagens de programação mais relevantes e as tecnologias mais recentes.</em></p>
-                <button class="botao_curso" id="botao"><a href="#cursos">Cursos disponíveis</a></button>
+                <button class="botao_curso" id="botao" title="Este botão redireciona para a sessão de cursos disponíveis" tabindex="4"><a href="#cursos">Cursos disponíveis</a></button>
             </div>
         </section>
         <section id="sobre">
@@ -54,36 +54,36 @@
                 <div id="caixa_curso">
                     <table id="tabela">
                         <tr>
-                            <td>
+                            <td scope="row">
                                 <div class="card" id="python">
                                     <div class="imagem_card"><img src="./img/python.png" alt=""></div>
                                     <div class="conteudo">
                                         <div class="titulo"><h3>Python</h3></div>
                                         <div class="desc"><p>Python é uma linguagem de programação de alto nível conhecida por sua sintaxe simples e legibilidade. É uma escolha popular para desenvolvimento web, científico e de automação de tarefas.</p></div>
-                                        <div><button class="botao_curso">Faça sua inscrição</button></div>
+                                        <div><button class="botao_curso" title="Este botão realiza a inscrição em Python" tabindex="5">Faça sua inscrição</button></div>
                                     </div>
                                 </div> 
                             </td>
 
-                            <td>
+                            <td scope="row">
                                 <div class="card" id="js">
                                     <div class="imagem_card"><img src="./img/js.png" alt=""></div>
                                     <div class="conteudo">
                                         <div class="titulo"><h3>JavaScript</h3></div>
                                         <div class="desc"><p>JavaScript é uma linguagem de script amplamente utilizada para desenvolvimento web. Ele é executado no lado do cliente, permitindo interatividade em páginas da web. </p></div>
-                                        <div><button class="botao_curso">Faça sua inscrição</button></div>
+                                        <div><button class="botao_curso" title="Este botão realiza a inscrição em JavaScript" tabindex="6">Faça sua inscrição</button></div>
                                     </div>
                                 </div>
                             </td>
                             
                             
-                            <td>
+                            <td scope="row">
                                 <div class="card" id="java">
                                     <div class="imagem_card"><img src="./img/java.png" alt=""></div>
                                     <div class="conteudo">
                                         <div class="titulo"><h3>JAVA</h3></div>
                                         <div class="desc"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cumque, illum quas eius ullam ut iure deserunt porro nostrum modi culpa mollitia dolores delectus quasi numquam aut similique, est dignissimos.</p></div>
-                                        <div><button class="botao_curso">Faça sua inscrição</button></div>
+                                        <div><button class="botao_curso" title="Este botão realiza a inscrição em JAVA" tabindex="7">Faça sua inscrição</button></div>
                                     </div>
                                 </div>
                             </td>
@@ -91,36 +91,36 @@
 
 
                         <tr>
-                            <td>
+                            <td scope="row">
                                 <div class="card" id="c">
                                     <div class="imagem_card"><img src="./img/C.png" alt=""></div>
                                     <div class="conteudo">
                                         <div class="titulo"><h3>C#</h3></div>
                                         <div class="desc"><p>C# é uma linguagem de programação desenvolvida pela Microsoft, destinada principalmente ao desenvolvimento de aplicativos para a plataforma .NET. É uma linguagem orientada a objetos e fortemente tipada, com características de programação funcional. </p></div>
-                                        <div><button class="botao_curso">Faça sua inscrição</button></div>
+                                        <div><button class="botao_curso" title="Este botão realiza a inscrição em C#" tabindex="8">Faça sua inscrição</button></div>
                                     </div>
                                 </div>
                             </td>
 
-                            <td>
+                            <td scope="row">
                                 <div class="card" id="php">
                                     <div class="imagem_card"><img src="./img/php.png" alt=""></div>
                                     <div class="conteudo">
                                         <div class="titulo"><h3>PHP</h3></div>
                                         <div class="desc"><p>é uma linguagem de script amplamente utilizada para desenvolvimento web do lado do servidor. Ele é especialmente conhecido por sua integração fácil com HTML e bancos de dados, tornando-o uma escolha popular para a construção de sites dinâmicos e aplicativos da web. </p></div>
-                                        <div><button class="botao_curso">Faça sua inscrição</button></div>
+                                        <div><button class="botao_curso" title="Este botão realiza a inscrição em PHP" tabindex="9">Faça sua inscrição</button></div>
                                     </div>
                                 </div>
                             </td>
                             
                             
-                            <td>
+                            <td scope="row">
                                 <div class="card" id="ruby">
                                     <div class="imagem_card"><img src="./img/ruby.png" alt=""></div>
                                     <div class="conteudo">
                                         <div class="titulo"><h3>Ruby</h3></div>
                                         <div class="desc"><p>Ruby é uma linguagem de programação dinâmica e de alto nível, famosa por sua sintaxe simples e expressiva. É frequentemente usado para desenvolvimento web com o framework Ruby on Rails, que simplifica a construção de aplicativos da web seguindo o paradigma MVC (Model-View-Controller).</p></div>
-                                        <div><button class="botao_curso">Faça sua inscrição</button></div>
+                                        <div><button class="botao_curso" title="Este botão realiza a inscrição em Ruby" tabindex="10">Faça sua inscrição</button></div>
                                     </div>
                                 </div>
                             </td>
@@ -187,7 +187,7 @@
                         <textarea name="sobre" id="area-texto" cols="20" rows="5" placeholder="Digite aqui!" style="padding-right: 0px;padding-left: 10px; border: 2px #3771A1 solid; border-radius: 20px;"></textarea>
                     </div>
 
-                    <button  type="submit" id="botao_form">ENVIAR</button>
+                    <button  type="submit" id="botao_form" title="Este botão envia o formulário">ENVIAR</button>
                 </div>
 
             </form>
