@@ -34,12 +34,11 @@ header{
     color: #b1b1b1;
 }
 
-#lista li:hover{
-    transition: 2s;
-    transform: translateY(-3px);
-    a{
-        color: #f2f2f2;
-    }
+#lista li a:hover{
+    
+    
+    color: #f2f2f2;
+    
 }
 
 
